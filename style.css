@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    display: flex;
+    background-color: #1f2937;
+    color: aliceblue;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 0 10px 0;
+}
+.logo {
+    width: 40px;
+    display: flex;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.header-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
