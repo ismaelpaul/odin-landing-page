@@ -105,4 +105,24 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
+flex-wrap: wrap;
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    background-color: #e5e7eb;
+    justify-content: center;
+}
+.quote h3 {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
+    padding: 0 20% 0 20%;
+}
+.quote h4 {
+    text-align: right;
+    padding-right: 20%;
+    font-weight: 500;
 }
