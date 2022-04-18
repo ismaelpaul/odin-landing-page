@@ -135,7 +135,7 @@ a, .hero-left {
 .cta-rect {
     display: flex;
     justify-content: center;
-    margin-top: 5%;
+    margin: 10% 0 5% 0;
 }
 .cta-info {
     margin-top: auto;
@@ -162,4 +162,15 @@ a, .hero-left {
 .cta-text h5 {
     font-size: 18px;
     font-weight: 200;
+}
+.footer {
+    margin-top: 90px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 25px 0 25px 0;
+}
+.footer h6 {
+    font-size: 12px;
+    font-weight: 300;
 }
