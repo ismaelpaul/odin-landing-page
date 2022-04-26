@@ -83,6 +83,7 @@ a, .hero-left {
     display: flex;
     justify-content: center;
     gap: 15px;
+ 
 }
 .whatevers h5 {
     font-size: 18px;
@@ -97,6 +98,10 @@ a, .hero-left {
     border-radius: 10px;
     max-width: 90%;
 }
+.whatevers img:hover {
+    box-shadow: 0 0 15px #3882f6;
+    /* transform: scale(1.1); */
+}
 .whatever1,
 .whatever2,
 .whatever3,
@@ -107,6 +112,7 @@ a, .hero-left {
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
+    transition: box-shadow .5s;
 }
 .quote {
     display: flex;
